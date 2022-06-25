@@ -16,6 +16,7 @@
 		267C17CE2867BC8D00431889 /* UIkit_AutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C17CD2867BC8D00431889 /* UIkit_AutoLayoutTests.swift */; };
 		267C17D82867BC8D00431889 /* UIkit_AutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C17D72867BC8D00431889 /* UIkit_AutoLayoutUITests.swift */; };
 		267C17DA2867BC8D00431889 /* UIkit_AutoLayoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C17D92867BC8D00431889 /* UIkit_AutoLayoutUITestsLaunchTests.swift */; };
+		267C17E72867C87D00431889 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C17E62867C87C00431889 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		267C17D32867BC8D00431889 /* UIkit-AutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIkit-AutoLayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		267C17D72867BC8D00431889 /* UIkit_AutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIkit_AutoLayoutUITests.swift; sourceTree = "<group>"; };
 		267C17D92867BC8D00431889 /* UIkit_AutoLayoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIkit_AutoLayoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		267C17E62867C87C00431889 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				267C17B62867BC8600431889 /* AppDelegate.swift */,
 				267C17B82867BC8600431889 /* SceneDelegate.swift */,
 				267C17BA2867BC8600431889 /* ViewController.swift */,
+				267C17E62867C87C00431889 /* OnboardingView.swift */,
 				267C17BC2867BC8600431889 /* Main.storyboard */,
 				267C17BF2867BC8C00431889 /* Assets.xcassets */,
 				267C17C12867BC8C00431889 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				267C17BB2867BC8600431889 /* ViewController.swift in Sources */,
+				267C17E72867C87D00431889 /* OnboardingView.swift in Sources */,
 				267C17B72867BC8600431889 /* AppDelegate.swift in Sources */,
 				267C17B92867BC8600431889 /* SceneDelegate.swift in Sources */,
 			);
